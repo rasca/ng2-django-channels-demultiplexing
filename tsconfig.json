@@ -2,16 +2,21 @@
     "compilerOptions": {
         "noImplicitAny": true,
         "module": "commonjs",
-        "target": "ES5",
+        "target": "es5",
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "sourceMap": true,
-        "declaration": true
+        "declaration": true,
+        "moduleResolution": "node",
+        "lib": [
+          "es2017",
+          "dom"
+        ]
     },
     "files": [
         "index.ts"
     ],
     "exclude": [
         "node_modules"
-    ]
+    ],
 }
