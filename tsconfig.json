@@ -14,8 +14,10 @@
         ]
     },
     "files": [
-        "index.ts",
-        "./src/*.ts"
+        "index.ts"
+    ],
+    "include": [
+        "src/**/*.ts"
     ],
     "exclude": [
         "node_modules"
